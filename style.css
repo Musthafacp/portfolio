@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.page1{
+    background-image: url("https://th.bing.com/th/id/R.b6f6936a1cb7efd5c3b82ffdfab3113f?rik=cu70GQsj9Np5%2fg&riu=http%3a%2f%2fdotnetguru.org%2fwp-content%2fuploads%2f2018%2f12%2ffront-end-developer.jpg&ehk=w1fRaA48JA9ZWsvIeINkYop3XDyl2KRKwQn9Q5E41nc%3d&risl=&pid=ImgRaw&r=0");
+}
+body nav{
+    font-family: poppins , sans-serif;
+    background-color: #202E3B;
+    color: rgb(0, 0, 0);
+    height: 100px;
+    display: flex;
+    align-items: center; 
+    position: sticky;
+    top: 0;
+}
+li{
+    display: inline-flex;
+    padding: 20px;
+    color: rgb(0, 0, 0); 
+}
+.name{
+    margin-left: 120px;
+    padding-top: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    /* position: static;
+    top: 0; */
+}
+nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+nav ul li a:hover{
+    color: #7f8e9e;
+}
+#scnd{
+    margin-left: 350px;
+}
+.per{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 00px;
+}
+.home{
+    font-family: roboto,sans-serif;
+    width: 80%;
+    /* margin-top: 70px; */
+    margin-left: 10%;
+    display: flex;
+}
+button{
+    margin-top: 40px;
+    width: 130px;
+    border-radius: 60px;
+    border: 0px black solid;
+    text-align: center;
+    height: 40px;
+    font-weight: 600;
+} 
+.firstbtn{
+    background-color: #667483;
+    color: rgb(255, 255, 255);
+
+}
+.firstbtn:hover{
+    background-color: white;
+    color: black;
+}
+.secondbtn{
+    background-color: #667483;
+    color: white;
+    margin-right: 20px;
+}
+.secondbtn:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;   
+    
+}
+
+
+.secondhalf{
+    padding:30px;
+    margin-top: 220px;
+    margin-left: -140px;
+    background-color: transparent;
+    background-image: linear-gradient(-45deg,#202E3B,#202E39,#1C2931);
+    border-radius: 40px;
+}
+.secondhalf p{
+    width: 500px;
+    margin-top: 20px;
+    color: white;
+}
+
+.firsthalf img{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.firstpage{
+    height: 100vh;
+}
+.name{
+    margin-left: 120px;
+    padding-top: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+
+/* -------------about---------------- */
+
+
+.secondpage{
+    height: 100vh;
+    background-color: #7f8e9e;
+}
+.abouthead{
+    padding-top: 40px;
+    width: 100%;
+    font-family: poppins,sans-serif;
+}
+#page2{
+    padding-left: 50px;
+    padding-top: 20px;
+    color: #414e5c;
+    font-size: 35px;
+    font-weight: 550;
+
+}
+
+.ptext{
+    height: 75vh;
+    font-size: 20px;
+    font-family: poppins,sans-serif;
+    line-height: 30px;
+    width:50%;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+.secondpagetextandpic{
+    display: flex;
+}
+.photo{
+    margin-left: 70px;
+    margin-top: 0px;
+}
+.photo img{
+    border-radius: 50%;
+}
+.about{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-left: 50px;
+}
+
+/* <---------skill---------> */
+
+.skillbody{
+    height: 100vh;
+    margin-top: -25px;
+    background-color: #667483;
+}
+.skill{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #202E39;
+    font-family: sans-serif;
+    padding-top: 70px;
+}
+.whole{
+    height: 400px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: sans-serif;
+}
+.whole h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.whole p{
+    padding-top: 20px;
+}
+.html{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px black;
+}
+.css{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px black;
+}
+.cpp{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 300px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 30px;
+}
+
+/* ----------------contact-------------- */
+
+.thirdpage{
+    height: 100vh;
+    background-color: #B4C3D4;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+.contact{
+    padding-left: 50px;
+    padding-top:40px;
+    font-family: poppins,sans-serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.chat{
+    font-size: 60px;
+    padding-left: 200px;
+    padding-top: 140px;
+    font-weight: bold;
+
+}
+.create{
+    font-size: 30px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+.tot{
+    display: flex;
+    font-family: poppins,sans-serif;
+}
+.inp{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0px;
+}
+.right input{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.optional{
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+.right{
+    background-color: #202E3B;
+    padding: 30PX;
+    margin-left: 100px;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+.sub{
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+    padding-bottom: 99px;
+}
+.git{
+    margin-top: 50px;
+    margin-left: 300px;
+    
+}
+.insta{
+    margin-left: 20px;
+    fill: aqua;
+}
+.linkdin{
+    margin-left: 20px;
+}
+.send{
+    color: white;
+}
+#submit {
+    margin-top: 40px;
+    width: 130px;
+    border-radius: 60px;
+    border: 0px black solid;
+    text-align: center;
+    height: 40px;
+    font-weight: 600;
+}
+#submit:hover{
+    background-color: #667483;
+    color: white;
+    margin-right: 20px;
+}
